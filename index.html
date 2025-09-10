@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8" />
   <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home"><i class="fa-solid fa-house-chimney fa-bounce"></i> Home</a></li>
+      <li><a href="#about"><i class="fa-solid fa-user fa-flip"></i> About</a></li>
+      <li><a href="#skills"><i class="fa-solid fa-wand-magic-sparkles fa-spin"></i> Skills</a></li>
+      <li><a href="#projects"><i class="fa-solid fa-heart fa-beat"></i> Projects</a></li>
+      <li><a href="#contact"><i class="fa-solid fa-envelope fa-shake"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+  <!-- Profile picture in a circle -->
+  <img src="img/me.png" alt="Profile picture" class="profile-pic" />
+    <h1>Welcome to My Portfolio!</h1>
+    <p class="tagline">Building cute things with code!</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Maryam Makei and I'm a passionate web developer who enjoys building beautiful and functional websites. I love learning new technologies and sharing my knowledge with others.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li><i class="fa-brands fa-java" style="color:#ff69b4"></i> Java</li>
+      <li><i class="fa-brands fa-js" style="color:#ffd700"></i> JavaScript</li>
+      <li><i class="fa-solid fa-code" style="color:#b39ddb"></i> C</li>
+      <li><i class="fa-solid fa-code" style="color:#b39ddb"></i> C++</li>
+      <li><i class="fa-brands fa-html5" style="color:#ff69b4"></i> HTML5</li>
+      <li><i class="fa-brands fa-python" style="color:#7ad9c6"></i> Python</li>
+      <li><i class="fa-brands fa-css3-alt" style="color:#b39ddb"></i> CSS3</li>
+      <li><i class="fa-solid fa-brain" style="color:#ffb6d5"></i> MATLAB</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <!-- Project screenshot using miffy.png -->
+        <img src="img/miffy.jpg" alt="Project screenshot" />
+        <h3>My First Website</h3>
+        <p>A simple website I built to learn HTML and CSS!</p>
+        <a href="https://mmakei.github.io/01-profile-card-html/" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Find me on:</p>
+    <ul>
+      <li><a href="https://github.com/mmakei" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
+      <li><a href="https://linkedin.com/in/maryammakei" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Maryam Makei.</p>
+  </footer>
 </body>
 </html>
